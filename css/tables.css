@@ -1,0 +1,111 @@
+@import 'tailwind.css';
+
+/* Custom classes for tables */
+.table-container {
+    @apply bg-white rounded-lg shadow-md overflow-hidden;
+}
+
+.table {
+    @apply w-full whitespace-no-wrap;
+}
+
+.table-header {
+    @apply bg-gray-100 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider;
+}
+
+.table-row {
+    @apply hover:bg-gray-100;
+}
+
+.table-cell {
+    @apply px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500;
+}
+
+.table-cell-number {
+    @apply text-right;
+}
+
+/* Custom classes for invoices table */
+.invoices-table {
+    @apply mt-8;
+}
+
+.invoices-table-header {
+    @apply text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider;
+}
+
+.invoices-table-row {
+    @apply hover:bg-gray-100;
+}
+
+.invoices-table-cell {
+    @apply px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500;
+}
+
+/* Custom classes for aged payables */
+.aged-payables {
+    @apply mt-8;
+}
+
+.aged-payables-header {
+    @apply text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider;
+}
+
+.aged-payables-row {
+    @apply hover:bg-gray-100;
+}
+
+.aged-payables-cell {
+    @apply px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500;
+}
+
+/* Custom classes for total revenue */
+.total-revenue {
+    @apply mt-8;
+}
+
+.total-revenue-header {
+    @apply text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider;
+}
+
+.total-revenue-row {
+    @apply hover:bg-gray-100;
+}
+
+.total-revenue-cell {
+    @apply px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500;
+}
+
+/* Custom classes for pnl */
+.pnl {
+    @apply mt-8;
+}
+
+.pnl-header {
+    @apply text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider;
+}
+
+.pnl-row {
+    @apply hover:bg-gray-100;
+}
+
+.pnl-cell {
+    @apply px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500;
+}
+
+/* Custom classes for income sources */
+.income-sources {
+    @apply mt-8;
+}
+
+.income-sources-header {
+    @apply text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider;
+}
+
+.income-sources-row {
+    @apply hover:bg-gray-100;
+}
+
+.income-sources-cell {
+    @apply px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500;
+}
