@@ -1,0 +1,60 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom classes using Tailwind CSS */
+
+/* Sidebar */
+.sidebar {
+  @apply bg-blue-500 text-white w-64 min-h-screen flex flex-col;
+}
+
+/* Company Name */
+.company-name {
+  @apply text-2xl font-bold p-5;
+}
+
+/* Hey Message */
+.hey-message {
+  @apply text-xl font-semibold p-5;
+}
+
+/* Staggered Layout */
+.staggered-layout {
+  @apply grid grid-cols-3 gap-4;
+}
+
+/* Graphs */
+.graphs {
+  @apply p-5 bg-white rounded shadow-md;
+}
+
+/* Tables */
+.tables {
+  @apply p-5 bg-white rounded shadow-md;
+}
+
+/* Invoices Table */
+.invoices-table {
+  @apply p-5 bg-white rounded shadow-md;
+}
+
+/* Aged Payables */
+.aged-payables {
+  @apply p-5 bg-white rounded shadow-md;
+}
+
+/* Total Revenue */
+.total-revenue {
+  @apply p-5 bg-white rounded shadow-md;
+}
+
+/* PnL */
+.pnl {
+  @apply p-5 bg-white rounded shadow-md;
+}
+
+/* Income Sources */
+.income-sources {
+  @apply p-5 bg-white rounded shadow-md;
+}
