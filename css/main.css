@@ -1,0 +1,69 @@
+@import 'tailwind.css';
+
+/* Main CSS file with custom classes using Tailwind CSS */
+
+/* Staggered layout for main dashboard */
+.staggered-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1rem;
+}
+
+/* Hey message on top of the main home of dashboard */
+#hey-message {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2d3748;
+  margin-bottom: 2rem;
+}
+
+/* Sidebar styles */
+#sidebar {
+  background-color: #2b6cb0;
+  color: #fff;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  overflow: auto;
+}
+
+/* Company name on top of the sidebar */
+#company-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+/* Graphs and tables styles */
+.graphs, .tables {
+  background-color: #edf2f7;
+  border-radius: .25rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Invoices table, aged payables, total revenue, pnl for past 6 months, income sources styles */
+#invoices-table, #aged-payables, #total-revenue, #pnl, #income-sources {
+  background-color: #fff;
+  border-radius: .25rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Custom classes for colorful, modern, sleek and yet minimal design */
+.colorful {
+  color: #38b2ac;
+}
+
+.modern {
+  font-family: 'Poppins', sans-serif;
+}
+
+.sleek {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.minimal {
+  color: #2d3748;
+  background-color: #edf2f7;
+}
