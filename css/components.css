@@ -1,0 +1,52 @@
+@import 'tailwind.css';
+
+/* Custom classes for components */
+
+/* Hey message */
+.hey-message {
+  @apply text-2xl font-bold text-gray-700;
+}
+
+/* Staggered layout */
+.staggered-layout {
+  @apply grid grid-cols-3 gap-4;
+}
+
+/* Graphs */
+.graph {
+  @apply p-4 bg-white rounded-lg shadow-md;
+}
+
+.graph .bar-chart {
+  @apply h-24 bg-blue-500 rounded;
+}
+
+.graph .pie-chart {
+  @apply h-24 bg-red-500 rounded;
+}
+
+/* Tables */
+.table {
+  @apply w-full mt-4 bg-white rounded-lg shadow-md;
+}
+
+.table .invoices-table,
+.table .aged-payables,
+.table .total-revenue,
+.table .pnl,
+.table .income-sources {
+  @apply w-full p-4;
+}
+
+/* Sidebar */
+.sidebar {
+  @apply w-64 h-screen bg-blue-500 fixed left-0 top-0 overflow-auto;
+}
+
+.sidebar .company-name {
+  @apply text-2xl font-bold text-white p-4;
+}
+
+.sidebar .menu-item {
+  @apply text-lg text-white p-4 hover:bg-blue-700;
+}
